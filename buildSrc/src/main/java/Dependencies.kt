@@ -7,7 +7,7 @@ object Dependencies   {
     val composeUi by lazy { "androidx.compose.ui:ui"}
     val composeUiGraphics by lazy { "androidx.compose.ui:ui-graphics"}
     val composeUiToolingPreview by lazy { "androidx.compose.ui:ui-tooling-preview"}
-    val composeMaterial3 by lazy { "androidx.compose.material3:material3"}
+    val composeMaterial3 by lazy { "androidx.compose.material3:material3:${Versions.material3}"}
     val junit by lazy { "junit:junit:${Versions.junit}"}
     val testJunit by lazy { "androidx.test.ext:junit:${Versions.testJunit}"}
     val espressoCore by lazy { "androidx.test.espresso:espresso-core:${Versions.espressoCore}"}
@@ -20,8 +20,8 @@ object Dependencies   {
     val lifecycleViewModel by lazy { "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleViewModelKtx}"}
 
     val hilt by lazy { "com.google.dagger:hilt-android:${Versions.hilt}"}
-    val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hiltCompiler}"}
-    val hiltCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hiltCompiler}"}
+    val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hilt}"}
+    val hiltCompiler by lazy { "androidx.hilt:hilt-compiler:${Versions.hiltCompiler}"}
     val timber by lazy { "com.jakewharton.timber:timber:${Versions.timber}"}
 
 }
